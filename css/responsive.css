@@ -1,0 +1,428 @@
+
+/* Very small device */
+@media only screen and (max-width:320px){
+	.singleImtesf h4.title span {
+    	font-size: 15px;
+	 }
+	 .fituredMeatas > div {
+	    padding-left: 7px;
+	    padding-right: 7px;
+	}
+	.headerTel span{
+		line-height: 15px;
+	}
+	.shortForm > div {
+	    text-align: center;
+	    float: none !important;
+	    margin-bottom: 15px;
+	}
+}
+
+@media only screen and (min-width:414px){
+	.visiable-mobile{
+		display: none;
+	}
+}
+
+@media only screen and (max-width:413px){
+	.shortForm > div {
+	    text-align: center;
+	    float: none !important;
+	    margin-bottom: 15px;
+	}	
+	.headerTel {
+	    font-size: 12px;
+	    margin-left: -15px;
+	    margin-right: -15px;
+	    text-align: center;
+	    float: none !important;
+	}
+	span.phone-icon:before{
+		display: none;
+	}
+	.headerMail i {
+    	display: none;
+	}
+	.headerMail {
+    	text-align: center;
+	}
+	article.logoAddressSocial .col-md-4.col-xl-4.col-sm-4.col-xs-12.pull-right.text-right {
+    	text-align: center;
+	}
+	ul#menu-top li {
+	    display: block;
+	    width: 100%;
+	}
+	nav#mainNav ul li.home_menu a{
+		margin-left:15px;
+	}
+	#sliderTitle h1.center-block.text-center.colr-wt.uppercase.fontw600 {
+    	font-size: 20px;
+	}
+	div#sliderTitle h5{
+		font-size:15px;
+	}
+	.gonext{
+		display: none;
+	}
+	.visiable-desktop{
+		display: none;
+	}
+	#carouselSlidesOnly,
+	div#sliderTitle,
+	.full-height{
+		max-height:250px;
+		height:250px;
+	}
+	div#sliderTitle{
+		left:0;
+	}
+	#carouselSlidesOnly img{
+		min-height:250px;
+	}
+	.visiable-mobile{
+		display: block;
+	}
+	form#homeSearchForm button,
+	form#homeSearchForm fieldset{
+		width:100%;
+	}
+	div#registerInner:after,
+	div#registerInner:before{
+		display: none;
+	}
+	div#registerInner{
+		padding:40px 20px;
+	}
+	div#registerInner p{
+		line-height: 25px;
+		margin-top:25px;
+	}
+	.singleCatPart{
+		background-size: cover;
+	}
+	.singleNews {
+    	margin-bottom: 40px;
+	}
+	.singleFoother {
+    	margin-bottom: 40px;
+	}
+	div#searchFormTab .form-group {
+    	border-bottom: 1px solid #eee;
+	}
+	form#homeSearchForm2 button, form#homeSearchForm button{
+		border-radius: 5px;
+	}
+	section#wellcome{
+		max-height: unset;
+	}
+	.welcomeVideo.full-height{
+		max-height: 400px;
+		height: 400px;
+	}
+	section#wellcome .col-md-6 {
+    	padding-left: 0px;
+	}
+	.singleNews .newImg {
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    background-position:center;
+	}
+	.footerMenu li {
+	    display: block;
+	    margin-bottom: 10px;
+	}
+	.tabDiv .tab-content form{
+		border-radius: 0;
+	}
+	section#pageContent .pl0 {
+    	padding-left: 15px !important;
+	}
+	.mpl0{
+		padding-left: 0 !important;
+	}
+	.mmb10{
+		margin-bottom:10px;
+	}
+	.mpr10{
+		padding-right:10px !important;
+	}
+	.singleMeta span {
+    	font-size: 12px;
+	}
+	#propertyslider .item img{
+		height: auto;
+	}
+	#propertyslider .crosualControl{
+		top:50px;
+	}
+	#propertyslider{
+		height: auto;
+	}
+	.titlepriceAddress{
+		overflow: hidden;
+	}
+	.titlepriceAddress h4.title span {
+    	font-size: 20px;
+	}
+
+}
+
+
+
+/*Tab*/
+@media only screen and (min-width:414px) and (max-width:768px){
+	.brochure a.btn	{
+		font-size:9px;
+	}
+	section#wellcome{
+		max-height: unset;
+	}
+	body.home .welcomeVideo.flex-center.position-ref.full-height{
+		max-height: 500px;
+	}
+	div#projects_map_wrapper_sidebar{
+		max-height: 200px;
+	}
+	div#propertyslider {
+    	max-height: 500px;
+	}
+	.singleCatPart {
+	    background-size: cover;
+	    background-position: center;
+	   	min-height:437px;
+	}
+	#propertyslider .crosualControl{
+		top:80px;
+	}
+	section#register {
+	    background-size: cover;
+	    background-repeat: no-repeat;
+
+	}
+	div#carouselSlidesOnly img{
+		height: 500px;
+	}
+	#sliderTitle .full-height{
+		max-height: 500px;
+	}
+	div#registerInner:after,
+	div#registerInner:before{
+		display: none;
+	}
+	body.search div#registerInner, body.single div#registerInner, body.page div#registerInner{
+		padding:20px;
+	}
+	.singleMeta span {
+    	font-size: 12px;
+	}
+	.singleFoother {
+    	margin-bottom: 50px;
+	}
+	div#sliderTitle h1{
+		font-size:38px;
+	}
+	.crosualControl .carousel-control.left{
+		left:20px;
+	}
+	.crosualControl .carousel-control.right{
+		right:20px;
+	}
+	section#header span {
+    	font-size: 15px;
+    	line-height: 12px;
+	}
+	article.logoAddressSocial address:before{
+		
+	}
+	article.logoAddressSocial address{
+		font-size:12px;
+	}
+	.headerSocial li.dropdown {
+    	display: none;
+	}
+	nav#mainNav ul li a{
+		font-size:13px;
+		padding:15px 8px;
+	}
+	form#homeSearchForm2 fieldset, form#homeSearchForm fieldset{
+		max-width: 150px;
+	}
+	form#homeSearchForm2 button, form#homeSearchForm button{
+		max-width: 145px;
+		border-radius: 0 9px 9px 0px;
+	}
+}
+
+
+/*Big from Tab */
+@media only screen and (min-width:769px) and (max-width:1024px){
+	nav#mainNav ul li a,
+	.headerTel span, .headerMail span{
+		font-size:15px;
+	}
+	form#homeSearchForm2 fieldset, form#homeSearchForm fieldset{
+		max-width:195px;
+	}
+	.singleCatPart {
+	    background-size: cover;
+	    background-position: center;
+	}
+	.footerItemSection address {
+    	font-size: 13px;
+	}
+	div#registerInner:before{
+		left:-53px;
+	}
+	.singleMeta span {
+    	font-size: 10px;
+	}
+	.titlepriceAddress h4.title span {
+    	font-size: 16px;
+	}
+	#sliderTitle .full-height{
+		max-height: 625px;
+	}
+	#sliderTitle, #carouselSlidesOnly,
+	div#carouselSlidesOnly img,
+	section#homeSlider{
+		height: 625px;
+	}
+	section#wellcome{
+		max-height: unset;
+	}
+	body.home .welcomeVideo.flex-center.position-ref.full-height {
+    	max-height: 550px;
+	}
+}
+ 
+ @media screen and (min-width:415px) and (max-width:568px) and (orientation: landscape) {
+ 	body{
+ 		display: block;
+ 	}
+
+ 	span.phone-icon:before{
+		display: none;
+	}
+
+	.headerMail i {
+    	display: none;
+	}
+	.headerMail {
+    	text-align: center;
+	}
+	.headerTel.text-right.pull-right {
+	    float: none !important;
+	    text-align: center;
+	}
+	.headerSocial ul{
+		text-align: center;
+	}
+	article.logoAddressSocial address {
+	    width: 200px;
+	    margin: 0 auto;
+	    margin-bottom: 20px;
+	}
+	nav#mainNav ul li a {
+	    font-size: 18px;
+	    padding: 15px;
+	}
+	nav#mainNav ul li{
+		display: block;
+	}
+	nav#mainNav ul li.home_menu a{
+		padding-left: 15px;
+	}
+	.visiable-desktop{
+		display: none;
+	}
+	.visiable-mobile{
+		display: block;
+	}
+	div#sliderTitle h1{
+		font-size:42px;
+	}
+	form#homeSearchForm2 fieldset, form#homeSearchForm fieldset{
+		width:100%;
+		max-width: unset;
+	}
+	form#homeSearchForm2 button, form#homeSearchForm button{
+		border-radius: 5px;
+		width:100%;
+		margin-right: 20px;
+	}
+	div#searchFormTab .form-group {
+    	border-bottom: 1px solid #eee;
+	}
+	section#wellcome{
+		max-height: unset;
+	}
+	.welcomeVideo{
+		background-size: cover;
+	}
+	section#wellcome .col-md-6{
+		padding-left:0;
+	}
+	.singleNews {
+    	margin-bottom: 40px;
+	}
+	section#pageContent .pl0 {
+    	padding-left: 15px !important;
+	}
+	section#pageContent .pr0 {
+    	padding-right: 15px !important;
+	}
+	.mmb10{
+		margin-bottom:10px;
+	}
+	div.wpcf7 {
+    	margin-bottom: 50px;
+	}
+	.shortForm > div {
+	    text-align: center;
+	    float: none !important;
+	    margin-bottom: 15px;
+	}
+	section#whyResidential > .pl0 {
+    	padding-right: 0;
+	}
+	.singleCatPart{
+		min-height: unset;
+	}
+ }
+
+ @media screen and (min-width:569px) and (max-width:667px) and (orientation: landscape) {
+ 	.headerSocial li.dropdown {
+    	display: inline-block;
+	}
+	.headerSocial ul {
+	   text-align: center;
+	}	
+
+	article.logoAddressSocial address {
+	    width: 170px;
+	    margin: 0 auto;
+	    margin-bottom: 30px;
+	}
+	.headerTel.text-right.pull-right {
+	    float: none !important;
+	    text-align: center;
+	}
+	span.phone-icon:before{
+		display: none;
+	}
+	.headerMail{
+		text-align: center;
+	}
+	form#homeSearchForm2 fieldset, form#homeSearchForm fieldset{
+		max-width: unset;
+		width: 100%;
+	}
+	div#searchFormTab .form-group {
+    	border-bottom: 1px solid #eee;
+	}
+	form#homeSearchForm2 button, form#homeSearchForm button{
+		border-radius: 5px;
+		margin-right:20px;
+	}
+ }
